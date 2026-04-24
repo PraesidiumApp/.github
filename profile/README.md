@@ -9,8 +9,8 @@ Praesidium is yet another password vault app, it aims to be simple and straightf
 safe even if the vault gets compromised
 
 ## Screenshots
-![Light theme preview](../assets/overview/light.png)
-![Dark theme preview](../assets/overview/dark.png)
+![Light theme preview](../assets/vault/light.png)
+![Dark theme preview](../assets/vault/dark.png)
 
 ## Repositories
 - [desktop](https://github.com/PraesidiumApp/desktop) -> The desktop version of Praesidium
