@@ -1,17 +1,20 @@
 # Praesidium
-Praesidium is yet another password vault app, it aims to be simple and straightforward
+
+## About
+Praesidium is a lightweight, cross-platform credential manager  
+Create a vault, set your master password, and store your sensitive data securely  
+Praesidium handles the heavy lifting
+
+> [!CAUTION]
+> **Research project:** This application was built for research purposes, use it at your own risk
 
 ## Features
-- __Cross-platform__ -> Uses the target OS WebView, achieving a uniform GUI and portability
-- __Password generation__ -> Easily generate a strong password with the built-in generator
-- __OpenSSH keys__ -> Generate, manage, copy and export OpenSSH keys without losing your mind
-- __Secure__ -> Vaults are encrypted by default with strong algorithms, keeping your secrets
-safe even if the vault gets compromised
+* **Cross-platform:** Utilizes the target OS WebView for a consistent, good-looking user interface
+* **Password Generator:** Built-in tool to easily create passwords on the fly
+* **Industry-Standard Security:**
+	* **Key Derivation:** Argon2id
+    * **Encryption:** AES-256-GCM
 
 ## Screenshots
 ![Light theme preview](../assets/vault/light.png)
 ![Dark theme preview](../assets/vault/dark.png)
-
-## Repositories
-- [desktop](https://github.com/PraesidiumApp/desktop) -> The desktop version of Praesidium
-- [engine](https://github.com/PraesidiumApp/engine) -> The backbone of Praesidium, manages vaults and data encryption
